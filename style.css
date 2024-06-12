@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#E1D4ED]
+  }
+  button {
+    @apply bg-purple-500 text-white gap-5 rounded-md py-[16px] px-[30px]
+  }
+  .border-style {
+    @apply border border-slate-950 shadow-[3px_3px_0px_rgba(0,0,0,1)]
+  }
+}
