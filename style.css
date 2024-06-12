@@ -17,7 +17,7 @@
     @apply bg-[#E1D4ED]
   }
   .button {
-    @apply bg-purple-500 text-white gap-5 rounded-md py-[16px] px-[30px] hover:font-semibold
+    @apply text-white gap-5 rounded-md py-[16px] px-[30px] hover:font-semibold
   }
   .border-style {
     @apply border border-slate-950 shadow-[3px_3px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] transition-all
