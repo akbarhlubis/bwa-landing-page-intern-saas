@@ -1,20 +1,52 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="flex gap-[20px] items-center">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xinli - BWA Landing Page SAAS</title>
+</head>
+
+<body class="font-PlusJakartaSans">
+  <!-- Header -->
+  <header class="flex items-center justify-between w-full px-10 py-4">
+    <div class="Logo">
+      <img class="w-3/4" src="./logo.png" alt="Logo Xinli">
+    </div>
+    <nav class="flex flex-row gap-8 p-4">
+      <a class="" href="#">Features</a>
+      <a class="" href="#">Pricing</a>
+      <a class="" href="#">Docs</a>
+      <a class="" href="#">Showcase</a>
+    </nav>
+    <div class="flex items-center gap-5">
       <a href="#">Sign In</a>
-      <button class="border-style">Sign Up</button>
+      <a class="button border-style" href="#">Sign Up</a>
     </div>
-    <div class="w-[530px] border-style h-[500px] rounded-md bg-white">
-  
+  </header>
+
+  <!-- Hero -->
+  <div class="flex flex-row items-center justify-between w-full px-10 py-4 hero">
+    <div class="w-1/2 left-section">
+      <h1 class="text-6xl font-bold">Explore Business Insights Analytics</h1>
+      <p>Make a better decision based on what your customer needs without compromising your business value propositions.</p>
+      <div class="join-picture">
+
+      </div>
+      <div class="buttons">
+        
+      </div>
     </div>
-    <!-- Skrip Main JS -->
-    <script type="module" src="/main.js"></script>
-  </body>
+    <div class="right-section" data-aos="fade-down">
+      <div class="w-[530px] border-style h-[500px] rounded-md bg-white"></div>
+    </div>
+  </div>
+
+  <!-- Skrip Main JS -->
+  <script type="module" src="/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+
 </html>
